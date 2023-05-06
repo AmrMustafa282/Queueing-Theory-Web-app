@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queueing Theory</title>
+</head>
+<body>
+    <main>
+        <div class="num-box">
+            <label for="num">Enter the Customers number</label>
+            <input type="text" id="num">
+            <button class="start-btn">Start</button>
+        </div>
+        <section class="sec2">
+            <div class="table1">
+
+            </div>
+            <button class="show-tableBtn">Show Table</button>
+        </section>
+        <section class="sec3">
+            <div class="bigTable"></div>
+            <div class="smalTable"></div>
+        </section>
+        <section class="sec4">
+            <canvas id="myChart" style="width:100%;max-width:10000px;"></canvas>
+            <div class="key">
+                <div class="one">Services</div>
+                
+                <div class="two">Queue</div>
+                
+                <div class="three">Idleness</div>
+                
+            </div>
+            
+        </section>
+        
+    </main>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</body>
+</html>
